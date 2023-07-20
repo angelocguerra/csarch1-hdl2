@@ -1,5 +1,5 @@
 $date
-	Fri Jul 21 03:40:34 2023
+	Fri Jul 21 05:30:00 2023
 $end
 $version
 	Icarus Verilog
@@ -17,321 +17,422 @@ $var wire 1 % A $end
 $var wire 1 & B $end
 $var wire 1 ' C $end
 $var wire 1 ( D $end
-$var wire 1 " en $end
-$var wire 1 ) w9 $end
-$var wire 1 * w8 $end
-$var wire 1 + w7 $end
-$var wire 1 , w6 $end
-$var wire 1 - w5 $end
-$var wire 1 . w4 $end
-$var wire 1 / w3 $end
-$var wire 1 0 w2 $end
-$var wire 1 1 w15 $end
-$var wire 1 2 w14 $end
-$var wire 1 3 w13 $end
-$var wire 1 4 w12 $end
-$var wire 1 5 w11 $end
-$var wire 1 6 w10 $end
-$var wire 1 7 w1 $end
-$var wire 1 8 w0 $end
-$var wire 1 9 v3 $end
-$var wire 1 : v2 $end
-$var wire 1 ; v1 $end
-$var wire 1 < v0 $end
+$var wire 1 " E $end
+$var wire 16 ) m [0:15] $end
+$var wire 4 * d [0:3] $end
 $var reg 1 ! F $end
-$scope module D1 $end
+$scope module D0 $end
 $var wire 1 " en $end
-$var wire 1 % w0 $end
-$var wire 1 & w1 $end
-$var reg 1 < y0 $end
-$var reg 1 ; y1 $end
-$var reg 1 : y2 $end
-$var reg 1 9 y3 $end
+$var wire 2 + i [0:1] $end
+$var reg 4 , m [0:3] $end
+$upscope $end
+$scope module D1 $end
+$var wire 1 - en $end
+$var wire 2 . i [0:1] $end
+$var reg 4 / m [0:3] $end
 $upscope $end
 $scope module D2 $end
-$var wire 1 < en $end
-$var wire 1 ' w0 $end
-$var wire 1 ( w1 $end
-$var reg 1 8 y0 $end
-$var reg 1 7 y1 $end
-$var reg 1 0 y2 $end
-$var reg 1 / y3 $end
+$var wire 1 0 en $end
+$var wire 2 1 i [0:1] $end
+$var reg 4 2 m [0:3] $end
 $upscope $end
 $scope module D3 $end
-$var wire 1 ; en $end
-$var wire 1 ' w0 $end
-$var wire 1 ( w1 $end
-$var reg 1 . y0 $end
-$var reg 1 - y1 $end
-$var reg 1 , y2 $end
-$var reg 1 + y3 $end
+$var wire 1 3 en $end
+$var wire 2 4 i [0:1] $end
+$var reg 4 5 m [0:3] $end
 $upscope $end
 $scope module D4 $end
-$var wire 1 : en $end
-$var wire 1 ' w0 $end
-$var wire 1 ( w1 $end
-$var reg 1 * y0 $end
-$var reg 1 ) y1 $end
-$var reg 1 6 y2 $end
-$var reg 1 5 y3 $end
-$upscope $end
-$scope module D5 $end
-$var wire 1 9 en $end
-$var wire 1 ' w0 $end
-$var wire 1 ( w1 $end
-$var reg 1 4 y0 $end
-$var reg 1 3 y1 $end
-$var reg 1 2 y2 $end
-$var reg 1 1 y3 $end
+$var wire 1 6 en $end
+$var wire 2 7 i [0:1] $end
+$var reg 4 8 m [0:3] $end
 $upscope $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
 #0
 $dumpvars
-1<
-0;
-0:
-09
-18
-07
+b0 8
+b0 7
 06
-05
-04
+b0 5
+b0 4
 03
-02
-01
+b0 2
+b0 1
 00
-0/
-0.
+b0 /
+b0 .
 0-
-0,
-0+
-0*
-0)
+b0 ,
+b0 +
+b0 *
+b0 )
 0(
 0'
 0&
 0%
 b1 $
 b0 #
-1"
-0!
+0"
+z!
 $end
 #10000
-17
-08
+b1 .
+b1 1
+b1 4
+b1 7
 1(
 b10 $
 b1 #
 #20000
-10
-07
 1'
+b10 .
+b10 1
+b10 4
+b10 7
 0(
 b11 $
 b10 #
 #30000
-1/
-00
+b11 .
+b11 1
+b11 4
+b11 7
 1(
 b100 $
 b11 #
 #40000
-1!
-1.
-1;
-0<
-0/
-08
+b1 +
 1&
 0'
+b0 .
+b0 1
+b0 4
+b0 7
 0(
 b101 $
 b100 #
 #50000
-1-
-0.
+b1 .
+b1 1
+b1 4
+b1 7
 1(
 b110 $
 b101 #
 #60000
-0!
-1,
-0-
 1'
+b10 .
+b10 1
+b10 4
+b10 7
 0(
 b111 $
 b110 #
 #70000
-1+
-0,
+b11 .
+b11 1
+b11 4
+b11 7
 1(
 b1000 $
 b111 #
 #80000
-1*
-0!
-1:
-0;
-0+
-0.
 1%
+b10 +
 0&
 0'
+b0 .
+b0 1
+b0 4
+b0 7
 0(
 b1001 $
 b1000 #
 #90000
-1)
-0*
+b1 .
+b1 1
+b1 4
+b1 7
 1(
 b1010 $
 b1001 #
 #100000
-16
-0)
 1'
+b10 .
+b10 1
+b10 4
+b10 7
 0(
 b1011 $
 b1010 #
 #110000
-1!
-15
-06
+b11 .
+b11 1
+b11 4
+b11 7
 1(
 b1100 $
 b1011 #
 #120000
-14
-1!
-19
-0:
-05
-0*
+b11 +
 1&
 0'
+b0 .
+b0 1
+b0 4
+b0 7
 0(
 b1101 $
 b1100 #
 #130000
-13
-04
+b1 .
+b1 1
+b1 4
+b1 7
 1(
 b1110 $
 b1101 #
 #140000
-12
-03
 1'
+b10 .
+b10 1
+b10 4
+b10 7
 0(
 b1111 $
 b1110 #
 #150000
-11
-02
+b11 .
+b11 1
+b11 4
+b11 7
 1(
 b10000 $
 b1111 #
 #160000
-0!
-18
-09
-1<
-01
-04
 0%
+b0 +
 0&
 0'
+b0 .
+b0 1
+b0 4
+b0 7
 0(
 b10001 $
 b0 #
 #170000
-08
-0<
-z!
-0"
+b1000000000000000 )
+b1000 /
+1-
+b1000 *
+b1000 ,
+0!
+1"
 b1 $
 b0 #
 #180000
+b100000000000000 )
+b100 /
+b1 .
+b1 1
+b1 4
+b1 7
 1(
 b10 $
 b1 #
 #190000
+b10000000000000 )
+b10 /
 1'
+b10 .
+b10 1
+b10 4
+b10 7
 0(
 b11 $
 b10 #
 #200000
+b1000000000000 )
+b1 /
+b11 .
+b11 1
+b11 4
+b11 7
 1(
 b100 $
 b11 #
 #210000
+1!
+b1000 2
+10
+0-
+b100 *
+b100000000000 )
+b100 ,
+b0 /
+b1 +
 1&
 0'
+b0 .
+b0 1
+b0 4
+b0 7
 0(
 b101 $
 b100 #
 #220000
+b10000000000 )
+b100 2
+b1 .
+b1 1
+b1 4
+b1 7
 1(
 b110 $
 b101 #
 #230000
+0!
+b1000000000 )
+b10 2
 1'
+b10 .
+b10 1
+b10 4
+b10 7
 0(
 b111 $
 b110 #
 #240000
+b100000000 )
+b1 2
+b11 .
+b11 1
+b11 4
+b11 7
 1(
 b1000 $
 b111 #
 #250000
+b1000 5
+13
+00
+0!
+b10 *
+b10000000 )
+b10 ,
+b0 2
 1%
+b10 +
 0&
 0'
+b0 .
+b0 1
+b0 4
+b0 7
 0(
 b1001 $
 b1000 #
 #260000
+b1000000 )
+b100 5
+b1 .
+b1 1
+b1 4
+b1 7
 1(
 b1010 $
 b1001 #
 #270000
+b100000 )
+b10 5
 1'
+b10 .
+b10 1
+b10 4
+b10 7
 0(
 b1011 $
 b1010 #
 #280000
+1!
+b10000 )
+b1 5
+b11 .
+b11 1
+b11 4
+b11 7
 1(
 b1100 $
 b1011 #
 #290000
+b1000 8
+16
+03
+1!
+b1 *
+b1000 )
+b1 ,
+b0 5
+b11 +
 1&
 0'
+b0 .
+b0 1
+b0 4
+b0 7
 0(
 b1101 $
 b1100 #
 #300000
+b100 )
+b100 8
+b1 .
+b1 1
+b1 4
+b1 7
 1(
 b1110 $
 b1101 #
 #310000
+b10 )
+b10 8
 1'
+b10 .
+b10 1
+b10 4
+b10 7
 0(
 b1111 $
 b1110 #
 #320000
+b1 )
+b1 8
+b11 .
+b11 1
+b11 4
+b11 7
 1(
 b10000 $
 b1111 #
 #330000
+0!
+b1000 /
+06
+1-
+b1000 *
+b1000000000000000 )
+b1000 ,
+b0 8
 0%
+b0 +
 0&
 0'
+b0 .
+b0 1
+b0 4
+b0 7
 0(
 b10001 $
 b0 #
-#340000
-1(
-b10010 $
-b1 #
