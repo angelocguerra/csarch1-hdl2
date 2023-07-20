@@ -17,8 +17,7 @@ module som_dec_2x4_pope_behav_tb();
     integer i;
 
     // Instantiate the design module under test
-    //som_dec_2x4_pope_behav dut(t_F, t_input[3], t_input[2], t_input[1], t_input[0],t_E);
-    main dut(t_F, t_input[3], t_input[2], t_input[1], t_input[0],t_E);
+    som_dec_2x4_pope_behav dut(t_F, t_input[3], t_input[2], t_input[1], t_input[0],t_E);
 
     // Generate stimulus using initial statements
     initial
