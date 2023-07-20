@@ -11,21 +11,21 @@
 module dec_2x4_behav(i,en,m);
     // Define input and output
     output reg [0:3] m;
-    input [0:1] i, en;
+    input [1:0] i, en;
 
     // Define decoder structure
     always @*
     begin
         if(en) // en = 1 : the decoder will be enabled
             begin
-                m0 = ~x & ~y; // 00
-                m1 = ~x & y; // 01
-                m2 = x & ~y; // 10
-                m3 = x & y; // 11
+                m[0] = ~i[1] & ~i[0]; // 00
+                m[1] = ~i[1] & i[0]; // 01
+                m[2] = i[1] & ~i[0]; // 10
+                m[3] = i[1] & i[0]; // 11
             end
         else // en = 0 : the decoder will be disabled
             // values will be set to 0 as default
-            {mo,m1,m2,m3} = 4'b0000
+            {m[0,m[1],m[2],m[3]]} = 4'b0000
     end
 endmodule
 
