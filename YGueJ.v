@@ -56,7 +56,7 @@ module som_dec_2x4_pope_behav(F,A,B,C,D,E);
     begin
 		if(E) // If en = 1, decoder is enabled
             F = m[4] | m[5] | m[11] | m[12] | m[13] | m[14] | m[15];
-		else // en = 0, decoder is disabled
+		else // en = 0, decoder is disabled (high-impedance)
             F = 1'bZ;
 	end
 	
