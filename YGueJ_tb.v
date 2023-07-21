@@ -28,6 +28,8 @@ module som_dec_2x4_pope_behav_tb();
             for(i = 1; i <= 17; i++)
                 #10 t_input = i; // Every 10ns, value 0000 becomes 0001 and so on until it goes back to 0000
             
+            $display(""); // line break
+
             // Enable = 1 (Positive)
             t_input = 4'b0000;
             t_E = 1;
